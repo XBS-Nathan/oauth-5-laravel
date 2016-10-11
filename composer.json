@@ -19,7 +19,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "lusitanian/oauth": "~0.3"
+        "thegeekhive/oauth": "^0.8.9"
     },
     "require-dev": {
         "illuminate/support": "~5"
@@ -30,5 +30,11 @@
             "Artdarek\\OAuth": "src/"
         }
     },    
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "repositories": {
+        "thegeekhive-oauth5": {
+            "type": "git",
+            "url": "git@github.com:XBS-Nathan/PHPoAuthLib.git"
+        }
+    }
 }

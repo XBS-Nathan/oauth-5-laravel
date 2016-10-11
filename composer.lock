@@ -4,22 +4,16 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "71c3944ca951a329072a3a4edc44a739",
-    "content-hash": "9dca7af7cb1d3177240d1b1ba459e32e",
+    "hash": "03d63d002a52ffeda802721614bd1b31",
+    "content-hash": "201f8faa924ce4e24c60a5597204961a",
     "packages": [
         {
-            "name": "lusitanian/oauth",
+            "name": "thegeekhive/oauth",
             "version": "v0.8.9",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Lusitanian/PHPoAuthLib.git",
+                "url": "git@github.com:XBS-Nathan/PHPoAuthLib.git",
                 "reference": "29bda6e176df6c292a9b1c43ae8a44d56a87c30b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Lusitanian/PHPoAuthLib/zipball/29bda6e176df6c292a9b1c43ae8a44d56a87c30b",
-                "reference": "29bda6e176df6c292a9b1c43ae8a44d56a87c30b",
-                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
@@ -47,7 +41,6 @@
                     "OAuth\\Unit": "tests"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -57,17 +50,17 @@
                     "email": "david@daviddesberg.com"
                 },
                 {
-                    "name": "Elliot Chance",
-                    "email": "elliotchance@gmail.com"
-                },
-                {
                     "name": "Pieter Hordijk",
                     "email": "info@pieterhordijk.com"
+                },
+                {
+                    "name": "Elliot Chance",
+                    "email": "elliotchance@gmail.com"
                 }
             ],
             "description": "PHP 5.3+ oAuth 1/2 Library",
             "keywords": [
-                "Authentication",
+                "authentication",
                 "authorization",
                 "oauth",
                 "security"
