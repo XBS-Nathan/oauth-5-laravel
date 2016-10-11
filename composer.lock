@@ -4,16 +4,16 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "03d63d002a52ffeda802721614bd1b31",
-    "content-hash": "201f8faa924ce4e24c60a5597204961a",
+    "hash": "a7038f0c07e525024fd53809cc4806bd",
+    "content-hash": "5e1127ef25412e0add3557d75d5269fb",
     "packages": [
         {
             "name": "thegeekhive/oauth",
-            "version": "v0.8.9",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:XBS-Nathan/PHPoAuthLib.git",
-                "reference": "29bda6e176df6c292a9b1c43ae8a44d56a87c30b"
+                "reference": "b8a9f254d1b7307619954f7d11bbb57cc1ae1053"
             },
             "require": {
                 "php": ">=5.3.0"
@@ -65,7 +65,7 @@
                 "oauth",
                 "security"
             ],
-            "time": "2016-02-24 00:20:18"
+            "time": "2016-10-11 08:31:50"
         }
     ],
     "packages-dev": [
@@ -286,7 +286,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "thegeekhive/oauth": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
